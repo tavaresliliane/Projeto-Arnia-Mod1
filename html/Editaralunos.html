@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Edição - Aluno</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../style/stilo.css" />
+    <script src="../js/submenu.js" defer></script>
+    <script src="../js/editaralunos.js" defer></script>
+    <link
+    rel="shortcut icon"
+    type="imagex/png"
+    href="..\images\inicio\figma-logo.ico"
+  />
+</head>
+<body>
+  <header>
+    <div class="contaneirheader">
+      <div class="imagelogo">
+        <img
+          src="..\images\inicio\logo.png"
+          alt="logo"
+        />
+      </div>
+      <div class="imageicone">
+        <img
+          src="..\images\inicio\persona.png"
+          alt="icon"
+          width="40px"
+          height="40px"
+        />
+      </div>
+      <div class="texto">
+        <h4>Denia Milena C.</h4>
+      </div>
+    </div>
+    <div class="imgborda">
+      <img width="1360px" height="3.5px" 
+        src="..\images\inicio\borda.png"
+        alt="imgborda">
+    </div>
+  </header>
+  <div class="border"></div>
+  <div class="contaneirmenu">
+    <nav>
+      <ul>
+        <li>
+          <span class="icon"
+            ><img
+              width="23"
+              height="23"
+              src="..\images\inicio\home.png"
+              alt="home" /></span
+          ><a href="../html/Inicio.html">Inicio</a>
+        </li>
+        <li>
+            <img
+              width="23"
+              height="23"
+              src="..\images\inicio\add-user.png"
+              alt="add-user" /></span
+          ><a href="#" class="expandirUsuarios">Usuários</a><span class="material-symbols-outlined">
+            chevron_right
+            </span>
+        <ul class="submenu">
+        <li><a href="../html/Professor.html">Professor</a></li>
+        <li><a href="../html/Aluno.html">Aluno</a></li>
+        </ul>
+        <li>
+          <span class="icon"
+            ><img
+              width="23"
+              height="23"
+              src="..\images\inicio\heart.png"
+              alt="heart" /></span
+          ><a href="../html/Emocionometro.html">Emocionômetro</a>
+        </li>
+        <li>
+          <div class="boxfinal">
+          <span class="icon"
+            ><img
+              width="23"
+              height="23"
+              src="..\images\inicio\user.png"
+              alt="user" /></span
+          ><a href="link">Meu Perfil</a>
+        </li>
+        <li>
+          <span class="icon"
+            ><img
+              width="23"
+              height="23"
+              src="..\images\inicio\logout.png"
+              alt="logout" /></span
+          ><a href="../index.html">Sair</a>
+        </div>
+        </li>
+      </ul>
+    </nav>
+    </div>
+  </div>
+    <div class="titlecadastro">
+      <a href="../html/Aluno.html"><button class="btn-arrow" type="button-seta"> <img src="..\images\inicio\left-small.png"></button>
+        </a>
+          Editar Usuário
+    <a class="img-seta">
+      <img src="..\images\inicio\chevron_right_FILL0_wght400_GRAD0_opsz24.png" alt="seta">
+    </a>
+     Aluno
+    </div>
+    <div class="contaneircadastro">
+        <form id="formulario">
+            <div class="item1">Dados do Usuário</div>
+                <label for="Nome">Nome</label>
+                <input type="text" name="Nome" id="Nome"></input>
+              <form>
+                <label for="Turma">Turma</label>
+                <input type="text" name="Turma" id="Turma"></input>
+                <label for="buttonrolar">Ativo</label>
+                <img class="botom-toggle" src="..\images\inicio\ToggleON.png">
+        <div class="btn-salvar">
+            <button class="text-button" type="submit">Salvar</button>
+            </div>
+        </form>
+    </div>
+  </body>
+</html>

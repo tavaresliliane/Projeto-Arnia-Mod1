@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alunos</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../style/stilo.css" />
+    <script src="../js/submenu.js" defer></script>
+    <script src="../js/listaralunos.js" defer></script>
+
+    <link
+      rel="shortcut icon"
+      type="imagex/png"
+      href="..\images\inicio\figma-logo.ico"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="contaneirheader">
+        <div class="imagelogo">
+          <img
+            src="..\images\inicio\logo.png"
+            alt="logo"
+          />
+        </div>
+        <div class="imageicone">
+          <img
+            src="..\images\inicio\persona.png"
+            alt="icon"
+            width="40px"
+            height="40px"
+          />
+        </div>
+        <div class="texto">
+          <h4>Denia Milena C.</h4>
+        </div>
+      </div>
+      <div class="imgborda">
+        <img width="1360px" height="3.5px" 
+          src="..\images\inicio\borda.png"
+          alt="imgborda">
+      </div>
+    </header>
+    <div class="border"></div>
+    <div class="contaneirmenu">
+      <nav>
+        <ul>
+          <li>
+            <span class="icon"
+              ><img
+                width="23"
+                height="23"
+                src="..\images\inicio\home.png"
+                alt="home" /></span
+            ><a href="../html/Inicio.html">Inicio</a>
+          </li>
+          <li>
+              <img
+                width="23"
+                height="23"
+                src="..\images\inicio\add-user.png"
+                alt="add-user" /></span
+            ><a href="#" class="expandirUsuarios">Usuários</a><span class="material-symbols-outlined">
+              chevron_right
+              </span>
+          <ul class="submenu">
+          <li><a href="../html/Professor.html">Professor</a></li>
+          <li><a href="../html/Aluno.html">Aluno</a></li>
+          </ul>
+          <li>
+            <span class="icon"
+              ><img
+                width="23"
+                height="23"
+                src="..\images\inicio\heart.png"
+                alt="heart" /></span
+            ><a href="../html/Emocionometro.html">Emocionômetro</a>
+          </li>
+          <li>
+            <div class="boxfinal">
+            <span class="icon"
+              ><img
+                width="23"
+                height="23"
+                src="..\images\inicio\user.png"
+                alt="user" /></span
+            ><a href="link">Meu Perfil</a>
+          </li>
+          <li>
+            <span class="icon"
+              ><img
+                width="23"
+                height="23"
+                src="..\images\inicio\logout.png"
+                alt="logout" /></span
+            ><a href="../index.html">Sair</a>
+          </div>
+          </li>
+        </ul>
+      </nav>
+      </div>
+    </div>
+    <div class="titlecadastro">
+      Novo Usuário
+    <a class="img-seta">
+      <img src="..\images\inicio\chevron_right_FILL0_wght400_GRAD0_opsz24.png" alt="seta">
+    </a>
+     Aluno
+    </div>
+    <div class="search">
+      <input type="text" class="search-text" placeholder="Pesquise uma palavra-chave" id="search">
+      <a class="search-btn">
+        <img width="22" height="22" src="..\images\inicio\search.png" alt="search--"/>
+      </div>
+      </a>
+    <div class="botom">
+      <a class="img-btn">
+        <img width="20" height="20" src="..\images\inicio\Plus 24px.png" alt="plus-math--v1"/>
+        </a>
+    <button class="text-btn" onclick="novoUsuario()">Novo Usuário</button>
+    </div>
+    <table class="table">
+      <thead>
+        <th>Nome</th>
+        <th>Turma</th>
+        <th>Ativo</th>
+        <th>Ações</th>
+      </div>
+      </thead>
+      <tbody></tbody>
+    </table>
+</body>
+</html>
+

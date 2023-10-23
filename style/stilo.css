@@ -1,0 +1,438 @@
+/*inicio da estilização tela de inicio*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(245, 244, 249, 1);
+
+
+}
+header{
+    width: 100%;
+    background-color: white;
+    border: none;
+}
+
+.contaneirheader{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.texto{
+    margin-left: 10px;
+    font-family: 'Nunito', sem serifa;
+    font-size: 18px;
+    
+    
+}
+.imagelogo{
+    display: inline-block;
+}
+.imageicone{
+    position:absolute;
+    top: 2,5%;
+    left: 87%;
+}
+
+.contaneirmenu{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    font-family: 'Nunito', sem serifa;
+    font-size: 16px;
+    max-width: 250px;
+    width: 220px;
+    height: 100%;
+    background-color: #F9E423;
+    display: block;
+    position:fixed;
+    
+       
+}
+.contaneirmenu nav ul li a{
+    text-decoration: none;
+    color:#AA6F34;
+    line-height: 30px;
+    margin-left: 10px;
+    
+    
+    
+}
+.contaneirmenu nav ul li:hover{
+    background-color: #FAA61A;
+    color: white;
+    transition: 0.5s;
+}
+.contaneirmenu nav ul li a:hover{
+    color: white;
+}
+ul{
+    padding: 15px;
+}
+li{
+    list-style-type: none;
+}
+
+.imageframe{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+   
+}
+
+.contaneirmenu ul ul{
+    display: none;
+}
+.contaneirmenu ul ul.submenu.mostrar{
+    display: block;
+}
+.boxfinal{
+    margin-top: 300px;
+}
+.material-symbols-outlined{
+    color: #AA6F34;
+    line-height: 20px;
+    margin-left: 50px;
+    vertical-align:text-top;
+}
+/*estilização tela emocionometro*/
+.text-image{
+    position: absolute;
+    top: 95px;
+    left: 250px;
+}
+.text2{
+    position: absolute;
+    top: 95px;
+    left: 1070px;
+}
+.figura1{
+    position: absolute;
+    top: 150px;
+    left: 1010px
+}
+.text3{
+    position: absolute;
+    top: 220px;
+    left: 1060px;
+}
+.text4{
+    position: absolute;
+    top: 170px;
+    left: 1035px;
+}
+.figura2{
+    position: absolute;
+    top: 300px;
+    left: 1009px;
+}
+.figura3{
+    position: absolute;
+    top: 165px;
+    left: 267px;
+    
+}
+.text5{
+    position: absolute;
+    top: 187px;
+    left: 300px;
+}
+.text6{
+    position: absolute;
+    top: 320px;
+    left: 1025px;
+}
+.text7{
+    position: absolute;
+    top: 220px;
+    left: 300px;
+}
+.imgboasvindas{
+    position: absolute;
+    top: 280px;
+    left: 480px;
+}
+/*estilização tela do professor/aluno*/
+.img-title{
+    position: absolute;
+    top: 80px;
+    left: 230px;
+}
+.table{
+    width: 78%;
+    height: 100%;
+    font-family: 'Nunito', sem serifa;
+    margin-left: 250px;
+    margin-top: 140px;
+    border-collapse: collapse;
+       
+}
+
+.table thead th{
+    padding: 10px;
+    text-align: left;
+
+}
+
+.table tbody td{
+    font-size: 14px;
+    background-color: white;  
+    padding: 10px;
+    
+}
+
+.botom{
+    background-color: rgba(0, 194, 71, 1);
+    border: none;
+    border-radius: 5px;
+    
+}
+.botom{
+    position: absolute;
+    top: 120px;
+    left: 1200px;
+    padding: 10px;
+    width: 120px;
+  
+}
+.text-btn{
+    background: none;
+    border:none;
+    color: white;
+    font-family:'Nunito', sem serifa;
+    font-size: 13px;  
+    font-weight: bold;
+    cursor:pointer;
+}
+.img-btn{
+    text-align:center;
+    vertical-align: text-top;
+    
+}
+.search{
+    position: absolute;
+    top: 140px;
+    left: 250px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid rgb(203, 202, 206);  
+    border-style:groove;
+}
+.search-text{
+    font-size: 12px;
+    outline: 0;
+    width: 250px; 
+    border:none;
+    font-family:'Nunito', sem serifa;  
+    font-size: 13px;
+    text-align:left;
+}
+.search-btn{
+    vertical-align: text-top;
+    cursor:pointer;
+    
+}
+
+.img-search{
+    top:20px;
+    height: 20px;
+}
+.acoes{
+    position:absolute;
+    top: 280px;
+    left: 1170px;
+}
+.acoes2{
+    position:absolute;
+    top: 280px;
+    left: 1250px;   
+}
+.button-editar{
+    cursor: pointer;
+}
+.button-excluir{
+    cursor: pointer;
+}
+
+.imgtoggle{
+    text-align:justify;
+
+}
+
+.edit-prof{
+    background-image: url ("C:\Users\Liliane\Documents\GitHub\ProjetoArniA\Inicio\IMG\editar.png");
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+/* estilização tela cadastro/edição professor/aluno*/
+
+.titlecadastro{
+    position: fixed;
+    top: 100px;
+    left: 250px;
+    font-family:'Nunito', sem serifa;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.contaneircadastro{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    padding: 50px;
+    font-size: 16px;
+    font-family: 'Nunito', sem serifa;
+    margin-left: 270px;
+    margin-top: 100px;
+      
+} 
+form{
+    display:-ms-inline-grid;
+   
+}    
+
+.item1{
+    
+    font-size: 18px;
+    font-weight: bold;
+    padding-inline-end: 80px;
+    padding-bottom: 30px;
+    
+}
+.text-btn2{
+    position: absolute;
+    top: 3px;
+    left: -5px;
+    background-color: rgb(203, 202, 206);  
+    padding: 15px;
+    border: none;
+    border-radius: 40px;   
+}
+.img-seta{
+    vertical-align:text-top;
+}
+.img-icone{
+    vertical-align:bottom;
+}
+
+.btn-salvar{
+    margin-top: 40px;
+    background-color: rgba(0, 194, 71, 1);
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none; 
+    width: 30%;  
+    text-align: center;
+}
+.text-button{
+    border: none;
+    background-color: rgba(0, 194, 71, 1);
+    color: white;
+    font-family:'Nunito', sem serifa;
+    font-weight: bold;
+    cursor:pointer;    
+}
+.btn-arrow{
+    border-radius: 40px;
+    border:none;
+    cursor: pointer;
+    vertical-align: text-bottom;
+}
+
+.btn-toggle{
+    width: 40px;
+    height: 25px;
+    vertical-align: text-top;
+}
+
+input{
+    border: 1px rgb(202, 201, 201) ;
+    border-radius: 5px;
+    padding: 7px;
+    border-style: groove;
+    outline: none;
+    font-family:'Nunito', sem serifa;   
+    
+}
+select{
+    border: 1px rgb(202, 201, 201) ;
+    border-radius: 5px;
+    padding: 7px;
+    border-style: groove;
+    outline: none;
+    font-family:'Nunito', sem serifa; 
+}
+.botom-toggle{
+    width: 40px;
+    height: 25px;
+    vertical-align: text-top;
+}
+
+/*estilização tela meu perfil extra*/
+
+.button-dados{
+    width: 15%;
+    position: absolute;
+    top: 150px;
+    left: 260px;
+    padding: 13px;
+    background-color:rgb(230, 230, 230); 
+    border-radius: 10px;
+    
+}
+
+.button-altdados{
+    width: 15%;
+    position: absolute;
+    top: 220px;
+    left: 260px;
+    padding: 13px;
+    background-color: rgb(230, 230, 230); 
+    border-radius: 10px;
+    
+}
+.button-dados:hover{
+    background-color:  #F9E423;
+    transition: 0.5s;
+
+}
+.button-altdados:hover{
+    background-color:  #F9E423;
+    transition: 0.5s;
+}
+
+.img-dados{
+    margin-left: 70px;
+    vertical-align:text-top;
+}
+
+.img-dados2{
+    margin-left: 80px;
+    vertical-align:text-top;
+}
+.text-altdados{
+    background: none;
+    border:none;
+    color: gray;
+    font-family:'Nunito', sem serifa;
+    font-size: 14px;  
+    cursor:pointer;
+
+}
+.button-dados .text-altdados:hover{
+    color: white;
+    
+}
+.button-altdados .text-altdados:hover{
+    color: white;
+    
+}
+    

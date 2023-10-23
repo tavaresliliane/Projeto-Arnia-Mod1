@@ -1,0 +1,87 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Poppins&display=swap');
+
+ body {
+    font-family: 'Nunito', sem serifa;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 244, 249, 1);
+    box-sizing: border-box;
+       
+ }
+img{
+    width: 100%;
+    height: 80%;
+    margin-left: 0;
+}
+
+.contaneirbox{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+    width: 50%;
+    height: 100%;
+    padding: 110px;
+    border-radius: 10px;   
+}
+input{
+    padding: 10px;
+    border-radius: 14px;
+    border: 1px solid rgb(203, 202, 206);
+    display: inline;
+    font-family: 'Poppins', sem serifa;
+    outline:#00C247;
+}
+.input2{
+    width: 62%;
+}
+.input3{
+    width: 62%;
+}
+
+button, .button-entrar{
+    text-decoration: none;
+    background-color: #00C247;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    font-size: 14px;
+    font-family: 'Nunito', sem serifa;
+     
+}
+
+button,.button-entrar{
+    text-align: center;
+    width: 65%;
+    padding: 10px;
+}
+a{
+    cursor: pointer;
+}
+button:hover{
+    
+    cursor: pointer;
+}
+.contaneir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content{
+    display: block;
+    align-items:normal;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 12px; 
+    padding: 10px;
+       
+}
+
+.text{
+   text-align: center;
+   color: gray;
+    
+}
+

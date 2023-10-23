@@ -1,0 +1,79 @@
+{
+  "Professores": [
+    {
+      "Nome": "José Luiz Rozendo",
+      "Perfil": "Professor",
+      "Disciplina": "JAVA",
+      "id": 2
+    },
+    {
+      "Nome": "Bianca Leticia S.",
+      "Disciplina": "Marketing Digital",
+      "Perfil": "Coordenador",
+      "id": 3
+    },
+    {
+      "Nome": "Ana Suelen O.",
+      "Perfil": "Professor",
+      "Disciplina": "NodeJS",
+      "id": 4
+    },
+    {
+      "Nome": "Arthur Sena",
+      "Disciplina": "Ciência da Computação",
+      "Perfil": "Coordenador",
+      "id": 5
+    },
+    {
+      "Nome": "Isis Bianca Tomé",
+      "Perfil": "Professor",
+      "Disciplina": "Python",
+      "id": 6
+    },
+    {
+      "Nome": "Denia Milena C.",
+      "Perfil": "Coordenador",
+      "Disciplina": "SQL",
+      "id": 7
+    },
+    {
+      "Nome": "Luis Filipe",
+      "Perfil": "Professor",
+      "Disciplina": "MySQL",
+      "id": 8
+    }
+  ],
+  "Alunos": [
+    {
+      "Nome": "Bruna Dantas",
+      "Turma": "Turma 6226 - Noite",
+      "Ações": "",
+      "id": 1
+    },
+    {
+      "Nome": "Mariana Mendes",
+      "Turma": "Turma 6226 - Noite",
+      "id": 2
+    },
+    {
+      "Nome": "Matheus Figueiredo",
+      "Turma": "Turma 6225 - Dia",
+      "id": 3
+    },
+    {
+      "Nome": "Marcelo Lucas",
+      "Turma": "Turma 6226 - Noite",
+      "id": 4
+    },
+    {
+      "Nome": "Arthur Leite",
+      "Turma": "Turma 6226 - Noite",
+      "id": 5
+    },
+    {
+      "Nome": "Santina Rocha A.",
+      "Turma": "Turma 6226 - Noite",
+      "id": 6
+    }
+  ]
+}
